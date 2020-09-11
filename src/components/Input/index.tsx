@@ -13,7 +13,7 @@ import { Container } from './styles';
 
 interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   name: string;
-  incon?: React.ComponentType<IconBaseProps>;
+  icon?: React.ComponentType<IconBaseProps>;
 }
 
 const Input: React.FC<InputProps> = ({ name, icon: Icon, ...rest }) => {
@@ -55,7 +55,7 @@ const Input: React.FC<InputProps> = ({ name, icon: Icon, ...rest }) => {
 
       {error && (
         <Error title={error}>
-          <FiAlertCircle color="#007AAD" size={20} />
+          <FiAlertCircle color="c53030" size={20} />
         </Error>
       )}
     </Container>

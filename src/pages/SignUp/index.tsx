@@ -5,8 +5,6 @@ import { Form } from '@unform/web';
 import * as Yup from 'yup';
 import getValidationErrors from '../../utils/getValidationErrors';
 
-import logoImg from '../../assets/studying.svg';
-
 import Input from '../../components/Input';
 import Button from '../../components/Button';
 
@@ -42,7 +40,6 @@ const SignUp: React.FC = () => {
       <Background />
 
       <Content>
-          <img src={logoImg} alt="EducAll" />
         <Form ref={formRef} onSubmit={handleSubmit}>
           <h1>Faça seu cadastro</h1>
 
