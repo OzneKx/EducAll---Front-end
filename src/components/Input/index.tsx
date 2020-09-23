@@ -5,8 +5,8 @@ import React, {
   useState,
   useCallback,
 } from 'react';
-
 import { IconBaseProps } from 'react-icons';
+import { FiAlertCircle } from 'react-icons/fi';
 import { useField } from '@unform/core';
 
 interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
@@ -14,4 +14,10 @@ interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   icon?: React.ComponentType<IconBaseProps>;
 }
 
+const Input: React.FC = () => {
+  return (
+    
+  );
+};
 
+export default Input;
